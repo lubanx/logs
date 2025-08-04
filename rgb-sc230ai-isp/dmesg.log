@@ -1,0 +1,177 @@
+[  584.077640] vin mipi0: sensor0_mclk set 24000000 as 24000000
+[  584.077703] vin mipi0: snrclk set enable
+[  584.263075] vin mipi2: sensor2_mclk set 24000000 as 24000000
+[  584.263197] vin mipi2: snrclk set enable
+[  584.359888] [VPF mgr]:[L478]empty_camsys_reset: empty function
+[  584.359914] [L1228]cim_open open_cnt :1
+[  584.359929] [CIM]:[L192][S0]cim_video_open done ret val:0
+[  584.359942] [L1227][S0]vin_node_open done
+[  584.359956] [VIN_NODE]:[L694][C0]vin_node_video_open done
+[  584.359968] [VPF ops]:[L2574][vin2_src] vpf_device_open: done
+[  584.360008] [L1228]cim_open open_cnt :2
+[  584.360018] [CIM]:[L192][S0]cim_video_open done ret val:0
+[  584.360030] [L1227][S0]vin_node_open done
+[  584.360042] [VIN_NODE]:[L694][C0]vin_node_video_open done
+[  584.360054] [VPF ops]:[L2574][vin2_cap] vpf_device_open: done
+[  584.360084] [L1228]cim_open open_cnt :3
+[  584.360094] [CIM]:[L192][S0]cim_video_open done ret val:0
+[  584.360105] [L1227][S0]vin_node_open done
+[  584.360117] [VIN_NODE]:[L694][C0]vin_node_video_open done
+[  584.360130] [VPF ops]:[L2574][vin2_emb] vpf_device_open: done
+[  584.360158] [L1228]cim_open open_cnt :4
+[  584.360168] [CIM]:[L192][S0]cim_video_open done ret val:0
+[  584.360180] [L1227][S0]vin_node_open done
+[  584.360192] [VIN_NODE]:[L694][C0]vin_node_video_open done
+[  584.360205] [VPF ops]:[L2574][vin2_pdaf] vpf_device_open: done
+[  584.360239] [VPF ops]:[L439][vin2_src][C0] vpf_vctx_bind_vdev: done, ctx_index(0) refcount(1)
+[  584.360260] [VPF ops]:[L1874][vin2_src][C0] vpf_video_bind_context: done
+[  584.360279] [VPF ops]:[L439][vin2_cap][C0] vpf_vctx_bind_vdev: done, ctx_index(0) refcount(1)
+[  584.360295] [VPF ops]:[L1874][vin2_cap][C0] vpf_video_bind_context: done
+[  584.360311] [VPF ops]:[L439][vin2_emb][C0] vpf_vctx_bind_vdev: done, ctx_index(0) refcount(1)
+[  584.360326] [VPF ops]:[L1874][vin2_emb][C0] vpf_video_bind_context: done
+[  584.360343] [VPF ops]:[L439][vin2_pdaf][C0] vpf_vctx_bind_vdev: done, ctx_index(0) refcount(1)
+[  584.360358] [VPF ops]:[L1874][vin2_pdaf][C0] vpf_video_bind_context: done
+[  584.360380] [VIN_NODE]:[L38]The vin node driver version is v1.1
+[  584.360392] [VPF ops]:[L1031][vin2_src][C0] vpf_video_get_version: done
+[  584.360422] [VPF ops]:[L1079][vin2_src][C0] vpf_video_get_struct_size: done
+[  584.360445] [CIM]:[L247][C0]cim_video_set_attr done ret val:0
+[  584.360459] [L423][C0] vin_node_set_attr ipi 0 done
+[  584.360472] [VIN_NODE]:[L239][C0]vin_node_video_set_attr done
+[  584.360483] [VPF ops]:[L689][vin2_cap][C0] vpf_video_set_init_attr: done
+[  584.360506] vin vcon2: vcon2 open 0: flow65535 ctx0 real
+[  584.360521] [L624][S65535][C0][ipi0]cim_subdev_init hw_id = 2
+[  584.360536] [CIM]:[L247][C0]cim_video_set_attr done ret val:0
+[  584.360551] vin vcon2: get attr valid bus2 rx2 done
+[  584.360565] [L423][C0] vin_node_set_attr ipi 0 done
+[  584.360576] [VIN_NODE]:[L239][C0]vin_node_video_set_attr done
+[  584.360588] [VIO node]:[L104][vin2] vio_group_task_start: sched_mode 1
+[  584.360599] [VPF ops]:[L689][vin2_src][C0] vpf_video_set_init_attr: done
+[  584.360617] [CIM]:[L247][C0]cim_video_set_attr done ret val:0
+[  584.360629] [L423][C0] vin_node_set_attr ipi 0 done
+[  584.360639] [VIN_NODE]:[L239][C0]vin_node_video_set_attr done
+[  584.360648] [VPF ops]:[L689][vin2_emb][C0] vpf_video_set_init_attr: done
+[  584.360665] [CIM]:[L247][C0]cim_video_set_attr done ret val:0
+[  584.360677] [L423][C0] vin_node_set_attr ipi 0 done
+[  584.360688] [VIN_NODE]:[L239][C0]vin_node_video_set_attr done
+[  584.360699] [VPF ops]:[L689][vin2_pdaf][C0] vpf_video_set_init_attr: done
+[  584.360720] [VPF ops]:[L1079][vin2_src][C0] vpf_video_get_struct_size: done
+[  584.360740] [L709][S65535] vin_node_set_ichn_attr begin format 43 width 1920 
+[  584.360760] [L527][S0][ipi0]cim_set_ichn_attr done
+[  584.360773] [CIM]:[L309][S0]cim_video_set_ichn_attr done ret val:0
+[  584.360784] [L724][S0]vin_node_set_ichn_attr done
+[  584.360796] [VIN_NODE]:[L427][C0]vin_node_video_set_ichn_attr done
+[  584.360810] [L1023][S0] vin_node_reqbufs done bit_map 0x1 planecount 1 
+[  584.360824] [VIN_NODE]:[L743][C0]vin_node_video_reqbufs done
+[  584.360850] [VPF ops]:[L1193][F0] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.360863] [VPF ops]:[L1197][F0] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.360876] [VPF ops]:[L1193][F1] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.360887] [VPF ops]:[L1197][F1] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.360900] [VPF ops]:[L1193][F2] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.360912] [VPF ops]:[L1197][F2] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.360926] [VPF ops]:[L1193][F3] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.360938] [VPF ops]:[L1197][F3] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.360951] [VPF ops]:[L1193][F4] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.360965] [VPF ops]:[L1197][F4] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.360978] [VPF ops]:[L1193][F5] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.360990] [VPF ops]:[L1197][F5] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.361003] [VPF ops]:[L1193][F6] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.361015] [VPF ops]:[L1197][F6] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.361028] [VPF ops]:[L1193][F7] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.361039] [VPF ops]:[L1197][F7] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.361050] [VPF ops]:[L1193][F8] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.361063] [VPF ops]:[L1197][F8] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.361074] [VPF ops]:[L1193][F9] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.361085] [VPF ops]:[L1197][F9] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.361096] [VPF ops]:[L1193][F10] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.361108] [VPF ops]:[L1197][F10] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.361122] [VPF ops]:[L1193][F11] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.361132] [VPF ops]:[L1197][F11] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.361146] [VPF ops]:[L1193][F12] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.361156] [VPF ops]:[L1197][F12] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.361168] [VPF ops]:[L1193][F13] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.361179] [VPF ops]:[L1197][F13] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.361190] [VPF ops]:[L1193][F14] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.361201] [VPF ops]:[L1197][F14] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.361214] [VPF ops]:[L1193][F15] vpf_fill_frame_info: L0 use width instead of wstride
+[  584.361225] [VPF ops]:[L1197][F15] vpf_fill_frame_info: L0 use height instead of vstride
+[  584.361236] [VPF ops]:[L1324][vin2_src][C0] vpf_request_frames: reqbuf number 16
+[  584.361251] [VPF ops]:[L850][vin2_src][C0] vpf_video_set_ichn_attr: done
+[  584.361274] [VPF ops]:[L1079][vin2_src][C0] vpf_video_get_struct_size: done
+[  584.361293] [L236][S0] ochn0 auto calc vstride 1080
+[  584.361307] [L160]vin_basic_attr->format:43
+[  584.361318] [L425][S0][ipi0][ochn0]cim_set_ochn_attr done
+[  584.361333] [CIM]:[L340][S0]cim_video_set_ochn_attr done ret val:0
+[  584.361345] [L652][S0]vin_node_set_ochn_attr done
+[  584.361358] [VIN_NODE]:[L364][C0]vin_node_video_set_ochn_attr done
+[  584.361374] [L981]vstride 1080  planecount 1 
+[  584.361385] [L1023][S0] vin_node_reqbufs done bit_map 0x0 planecount 1 
+[  584.361396] [VIN_NODE]:[L743][C0]vin_node_video_reqbufs done
+[  584.361427] [VPF ops]:[L1324][vin2_cap][C0] vpf_request_frames: reqbuf number 16
+[  584.361443] [VPF ops]:[L978][vin2_cap][C0] vpf_video_set_ochn_attr: done
+[  584.361464] [VPF ops]:[L1079][vin2_src][C0] vpf_video_get_struct_size: done
+[  584.361489] vin mipi2: snrclk set freq cmd
+[  584.361508] vin mipi2: sensor2_mclk set 24000000 as 24000000
+[  584.361522] vin mipi2: snrclk set en cmd
+[  584.361532] vin mipi2: snrclk set enable
+[  584.361542] [L517][S0]vin_node_set_attr_ex done
+[  584.361553] [VIN_NODE]:[L324][C0]vin_node_video_set_attr_ex done
+[  584.361566] [VPF ops]:[L763][vin2_src][C0] vpf_video_set_attr_ex: done
+[  584.361582] [L517][S0]vin_node_set_attr_ex done
+[  584.361592] [VIN_NODE]:[L324][C0]vin_node_video_set_attr_ex done
+[  584.361601] [VPF ops]:[L763][vin2_cap][C0] vpf_video_set_attr_ex: done
+[  584.361646] [VPF ops]:[L2574][vs-isp0_src] vpf_device_open: done
+[  584.361684] [VPF ops]:[L2574][vs-isp0_src_pd] vpf_device_open: done
+[  584.362833] vs-isp 3d000000.isp: failed to post on state changed (err=-22)
+[  584.369801] [VPF ops]:[L2574][vs-isp0_cap] vpf_device_open: done
+[  584.369822] [VPF ops]:[L439][vs-isp0_src][C0] vpf_vctx_bind_vdev: done, ctx_index(0) refcount(1)
+[  584.369852] [VPF ops]:[L1874][vs-isp0_src][C0] vpf_video_bind_context: done
+[  584.369879] [VPF ops]:[L439][vs-isp0_src_pd][C0] vpf_vctx_bind_vdev: done, ctx_index(0) refcount(1)
+[  584.369908] [VPF ops]:[L1874][vs-isp0_src_pd][C0] vpf_video_bind_context: done
+[  584.369934] [VPF ops]:[L439][vs-isp0_cap][C0] vpf_vctx_bind_vdev: done, ctx_index(0) refcount(1)
+[  584.369961] [VPF ops]:[L1874][vs-isp0_cap][C0] vpf_video_bind_context: done
+[  584.369996] [VPF ops]:[L1079][vs-isp0_src][C0] vpf_video_get_struct_size: done
+[  584.370028] [VPF ops]:[L689][vs-isp0_cap][C0] vpf_video_set_init_attr: done
+[  584.373361] [VPF ops]:[L210][vs-isp0_cap][S65535][C0] vpf_vdev_close: refcount 0
+[  584.373408] isp_nat_close set isp state to CLOSED
+[  584.373439] vs-isp 3d000000.isp: failed to call isp_set_state (err=-22)
+[  584.380112] vs-isp 3d000000.isp: failed to post off state changed (err=-22)
+[  584.387369] [VPF ops]:[L2553][vs-isp0_cap] vpf_device_close: done
+[  584.387391] [VPF ops]:[L210][vs-isp0_src_pd][S65535][C0] vpf_vdev_close: refcount 0
+[  584.387409] [VPF ops]:[L2553][vs-isp0_src_pd] vpf_device_close: done
+[  584.387427] [VPF ops]:[L210][vs-isp0_src][S65535][C0] vpf_vdev_close: refcount 0
+[  584.387444] [VPF ops]:[L1718][vs-isp0_src][S65535][C0] vpf_chain_del_vnode: null
+[  584.387458] [VPF ops]:[L2553][vs-isp0_src] vpf_device_close: done
+[  584.387473] [VPF ops]:[L210][vin2_pdaf][S65535][C0] vpf_vdev_close: refcount 0
+[  584.387492] [L1119][S65535] cim_subdev_close hw_id = 2, refcount = 0
+[  584.387505] [L1272][S65535] cim_close open_cnt 3
+[  584.387517] [CIM]:[L216][S0]cim_video_close done ret:0 
+[  584.387532] [L1319][S0][V12] vin_node_close done
+[  584.387545] [VIN_NODE]:[L718][C0]vin_node_video_close done
+[  584.387559] [VPF ops]:[L2553][vin2_pdaf] vpf_device_close: done
+[  584.387573] [VPF ops]:[L210][vin2_emb][S65535][C0] vpf_vdev_close: refcount 0
+[  584.387590] [L1119][S65535] cim_subdev_close hw_id = 2, refcount = 0
+[  584.387604] [L1272][S65535] cim_close open_cnt 2
+[  584.387615] [CIM]:[L216][S0]cim_video_close done ret:0 
+[  584.387627] [L1319][S0][V11] vin_node_close done
+[  584.387639] [VIN_NODE]:[L718][C0]vin_node_video_close done
+[  584.387652] [VPF ops]:[L2553][vin2_emb] vpf_device_close: done
+[  584.387666] [VPF ops]:[L210][vin2_cap][S65535][C0] vpf_vdev_close: refcount 0
+[  584.387683] [L1119][S65535] cim_subdev_close hw_id = 2, refcount = 0
+[  584.387697] [L1272][S65535] cim_close open_cnt 1
+[  584.387709] [CIM]:[L216][S0]cim_video_close done ret:0 
+[  584.387721] [L1319][S0][V8] vin_node_close done
+[  584.387732] [VIN_NODE]:[L718][C0]vin_node_video_close done
+[  584.387751] [VPF ops]:[L2553][vin2_cap] vpf_device_close: done
+[  584.387767] [VIO node]:[L141][vin2] vio_group_task_stop: done
+[  584.387777] [VPF ops]:[L210][vin2_src][S65535][C0] vpf_vdev_close: refcount 0
+[  584.387795] [L1119][S65535] cim_subdev_close hw_id = 2, refcount = 0
+[  584.387813] [VPF mgr]:[L478]empty_camsys_reset: empty function
+[  584.387826] hobot-sif 3d040000.sif: sif2 reset done
+[  584.387847] [L1272][S65535] cim_close open_cnt 0
+[  584.387857] [CIM]:[L216][S0]cim_video_close done ret:0 
+[  584.387870] vin vcon2: get attr valid bus2 rx2 done
+[  584.387885] vin vcon2: vcon2 close 0: flow65535 ctx0 real
+[  584.387897] [L1319][S0][V0] vin_node_close done
+[  584.387908] [VIN_NODE]:[L718][C0]vin_node_video_close done
+[  584.387926] [VPF ops]:[L1718][vin2_src][S65535][C0] vpf_chain_del_vnode: null
+[  584.387942] [VPF ops]:[L2553][vin2_src] vpf_device_close: done
