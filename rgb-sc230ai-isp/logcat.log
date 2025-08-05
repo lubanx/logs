@@ -2,33 +2,40 @@
 
   logcat test start !!!
 --------- beginning of /dev/log_main
-W/        (  575): [49.360981][camera_vpf]:[camera_vpf_vin_attr_show][994]     mipi : rx0 vc0(0) not enable
-W/        (  575): [49.361217][sensor_lib]:[camera_sensor_set_cali_name][585] calib_lname is null, we will try sensor_name_tuning.json.
-W/        (  575): [49.635025][sensor_lib]:[camera_sensor_get_iparam][2266] sensor0 sc230ai 0x0@0.0ps state 4-NOT_SUPPORT
-W/        (  575): [49.635078][sensor_comm]:[camera_sensor_emode_parse][149] sensor sc230ai extra_mode 0 emode name is NULL
-E/        (  575): [69.552177][hbn_vpf_interface.c]:[hbn_vnode_set_inter_attr][1183]vnode is null COMMON invalid driver device node
-E/        (  575): [69.552269][camera_vpf]:[camera_vpf_vin_detach_camera][1416] detach camera0 from vin 0x8765 error -1
-E/        (  575): [69.552322][camera_run]:[camera_detach_from_vin][2463] camera0 sc230ai attach vin 0x8765 error -1
-E/        (  575): [69.798195][hbn_vpf_interface.c]:[hbn_vnode_close][356]hbn_vnode_close vnode is null
-E/        (  584): [135.179031][vpf_ioctl.c]:[vpf_ioc_set_attr][112]failed to ioctl: VIO_IOC_SET_ATTR (22 - Invalid argument)
-E/        (  584): [135.179184][hbn_vpf_interface.c]:[hbn_vnode_set_attr][470]vs-isp0: vpf_ioc_set_attr for ichn failed COMMON illegal attribute
-E/        (  586): [139.991226][vpf_ioctl.c]:[vpf_ioc_set_attr][112]failed to ioctl: VIO_IOC_SET_ATTR (22 - Invalid argument)
-E/        (  586): [139.991394][hbn_vpf_interface.c]:[hbn_vnode_set_attr][470]vs-isp0: vpf_ioc_set_attr for ichn failed COMMON illegal attribute
-E/        (  588): [157.216751][vpf_ioctl.c]:[vpf_ioc_set_attr][112]failed to ioctl: VIO_IOC_SET_ATTR (22 - Invalid argument)
-E/        (  588): [157.216919][hbn_vpf_interface.c]:[hbn_vnode_set_attr][470]vs-isp0: vpf_ioc_set_attr for ichn failed COMMON illegal attribute
-E/        (  592): [460.283722][vpf_ioctl.c]:[vpf_ioc_set_attr][112]failed to ioctl: VIO_IOC_SET_ATTR (22 - Invalid argument)
-E/        (  592): [460.283966][hbn_vpf_interface.c]:[hbn_vnode_set_attr][470]vs-isp0: vpf_ioc_set_attr for ichn failed COMMON illegal attribute
-W/        (  600): [479.063232][camera_vpf]:[camera_vpf_vin_attr_show][994]     mipi : rx0 vc0(0) not enable
-W/        (  600): [479.063416][sensor_lib]:[camera_sensor_set_cali_name][585] calib_lname is null, we will try sensor_name_tuning.json.
-W/        (  600): [479.337585][sensor_lib]:[camera_sensor_get_iparam][2266] sensor0 sc230ai 0x0@0.0ps state 4-NOT_SUPPORT
-W/        (  600): [479.337646][sensor_comm]:[camera_sensor_emode_parse][149] sensor sc230ai extra_mode 0 emode name is NULL
-E/        (  600): [484.513763][hbn_vpf_interface.c]:[hbn_vnode_set_inter_attr][1183]vnode is null COMMON invalid driver device node
-E/        (  600): [484.513824][camera_vpf]:[camera_vpf_vin_detach_camera][1416] detach camera0 from vin 0x8765 error -1
-E/        (  600): [484.513824][camera_run]:[camera_detach_from_vin][2463] camera0 sc230ai attach vin 0x8765 error -1
-E/        (  600): [484.797882][hbn_vpf_interface.c]:[hbn_vnode_close][356]hbn_vnode_close vnode is null
-E/        (  614): [512.470886][vpf_ioctl.c]:[vpf_ioc_set_attr][112]failed to ioctl: VIO_IOC_SET_ATTR (22 - Invalid argument)
-E/        (  614): [512.471130][hbn_vpf_interface.c]:[hbn_vnode_set_attr][470]vs-isp0: vpf_ioc_set_attr for ichn failed COMMON illegal attribute
-E/        (  623): [584.347107][vpf_ioctl.c]:[vpf_ioc_set_attr][112]failed to ioctl: VIO_IOC_SET_ATTR (22 - Invalid argument)
-E/        (  623): [584.347412][hbn_vpf_interface.c]:[hbn_vnode_set_attr][470]vs-isp0: vpf_ioc_set_attr for ichn failed COMMON illegal attribute
+E/        (  613): [117.134987][vpf_ioctl.c]:[vpf_ioc_set_attr][112]failed to ioctl: VIO_IOC_SET_ATTR (22 - Invalid argument)
+E/        (  613): [117.135254][hbn_vpf_interface.c]:[hbn_vnode_set_attr][470]vs-isp0: vpf_ioc_set_attr for ichn failed COMMON illegal attribute
+E/        (  615): [119.140076][vpf_ioctl.c]:[vpf_ioc_set_attr][112]failed to ioctl: VIO_IOC_SET_ATTR (22 - Invalid argument)
+E/        (  615): [119.140327][hbn_vpf_interface.c]:[hbn_vnode_set_attr][470]vs-isp0: vpf_ioc_set_attr for ichn failed COMMON illegal attribute
+E/        (  651): [164.196503][vpf_ioctl.c]:[vpf_ioc_set_attr][112]failed to ioctl: VIO_IOC_SET_ATTR (22 - Invalid argument)
+E/        (  651): [164.196747][hbn_vpf_interface.c]:[hbn_vnode_set_attr][470]vs-isp0: vpf_ioc_set_attr for ichn failed COMMON illegal attribute
+E/        (  653): [168.940689][vpf_ioctl.c]:[vpf_ioc_set_attr][112]failed to ioctl: VIO_IOC_SET_ATTR (22 - Invalid argument)
+E/        (  653): [168.940826][hbn_vpf_interface.c]:[hbn_vnode_set_attr][470]vs-isp0: vpf_ioc_set_attr for ichn failed COMMON illegal attribute
+D/        (  666): [327.673676][camera_if]:[hbn_camera_create][144] create camera sc230ai
+D/        (  666): [327.675934][camera_run]:[camera_addition_pre][205] CAM_DIAG not enable
+D/        (  666): [327.675995][camera_run]:[camera_handle_mgr_get_id][464] get id 0 count 0
+D/        (  666): [327.676025][camera_run]:[camera_handle_mgr_set_id][510] set id 0 camera fd 0x4331 count 1
+D/        (  666): [327.676025][camera_hdl]:[camera_handle_malloc][114] malloc id 0 fd 0x4331
+D/        (  666): [327.677582][camera_mod]:[camera_module_lib_pre][214] sensor sc230ai: libsc230ai.so pre sucess
+D/        (  666): [327.677673][sensor_lib]:[camera_sensor_config_check][252] sensor sc230ai config check
+D/        (  666): [327.677765][sensor_lib]:[camera_sensor_ko_version_check][150] sensor sc230ai v1.0.0 ko v1.0
+I/        (  666): [327.677795][camera_if]:[hbn_camera_create][222] create 0: camera sc230ai as fd 0x4331
+I/        (  666): [327.677917][hbn_vpf_interface.c]:[vnode_alloc_magic_fd][224]cur_index 0
+I/        (  666): [327.677948][hbn_vpf_interface.c]:[hbn_vnode_open][312]vnode create done !
+I/        (  666): [327.678558][hbn_vpf_interface.c]:[hbn_vnode_open][319]vin2 ctx 0 vnode open
+I/        (  666): [327.678589][hbn_vpf_interface.c]:[hbn_vnode_set_attr][438]start
+I/        (  666): [327.678619][hbn_vpf_interface.c]:[vnode_size_check][407]vnode_size_check vin2 done, size(412-412) matched
+I/        (  666): [327.678955][hbn_vpf_interface.c]:[vnode_size_check][407]vnode_size_check vin2 done, size(12-12) matched
+I/        (  666): [327.679474][hbn_vpf_interface.c]:[hbn_vnode_set_ichn_attr][1023]vin2 ctx0 vnode done
+I/        (  666): [327.679565][hbn_vpf_interface.c]:[vnode_size_check][407]vnode_size_check vin2 done, size(76-76) matched
+I/        (  666): [327.679749][hbn_vpf_interface.c]:[hbn_vnode_set_ochn_attr][808]vin2 ctx0 vnode done
+I/        (  666): [327.679779][hbn_vpf_interface.c]:[vnode_size_check][407]vnode_size_check vin2 done, size(368-368) matched
+I/        (  666): [327.679932][hbn_vpf_interface.c]:[hbn_vnode_set_attr_ex][600]vin2 ctx0 vnode done
+I/        (  666): [327.679962][hbn_vpf_interface.c]:[vnode_alloc_magic_fd][224]cur_index 1
+I/        (  666): [327.679993][hbn_vpf_interface.c]:[hbn_vnode_open][312]vnode create done !
+I/        (  666): [327.688293][hbn_vpf_interface.c]:[hbn_vnode_open][319]vs-isp0 ctx 0 vnode open
+I/        (  666): [327.688324][hbn_vpf_interface.c]:[hbn_vnode_set_attr][438]start
+I/        (  666): [327.688354][hbn_vpf_interface.c]:[vnode_size_check][407]vnode_size_check vs-isp0 done, size(48-48) matched
+E/        (  666): [327.688416][vpf_ioctl.c]:[vpf_ioc_set_attr][112]failed to ioctl: VIO_IOC_SET_ATTR (22 - Invalid argument)
+E/        (  666): [327.688446][hbn_vpf_interface.c]:[hbn_vnode_set_attr][470]vs-isp0: vpf_ioc_set_attr for ichn failed COMMON illegal attribute
 
 
